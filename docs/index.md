@@ -21,3 +21,12 @@ raise Exception('Do not use numbers for the file\'s name') except Exception as e
  22 | P a g e
 print(e, e.__doc__, type(e), sep='\n')
 ```
+
+
+        print("Built-In Python error info: ")
+        print(e, e.__doc__, type(e), sep='\n')
+    ```
+    #### Listing 13
+    ![Results of Listing 13](Figure 13.png "Results of Listing 13")####Figure 13. The results of Listing 13.
+ 
+[alt text](web address "tooltip text")
