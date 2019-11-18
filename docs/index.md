@@ -12,21 +12,18 @@ Python automatically generates errors based on conditions defined by the Python 
 # Description: A try-catch with manually raised errors # ChangeLog: (Who, When, What)
 # RRoot,1.1.2030,Created Script
 # ------------------------------------------------- #
+
 try:
-new_file_name = input("Enter the name of the file you want to make: ") if new_file_name.isnumeric():
-raise Exception('Do not use numbers for the file\'s name') except Exception as e:
+    new_file_name = input("Enter the name of the file you want to make: ") 
+    if new_file_name.isnumeric():
+        raise Exception('Do not use numbers for the file\'s name') 
+except Exception as e:
     print("There was a non-specific error!")
     print("Built-In Python error info: ")
- Figure 20
- 22 | P a g e
-print(e, e.__doc__, type(e), sep='\n')
+    print(e, e.__doc__, type(e), sep='\n')
 ```
+#### Listing 13
 
+![Results of Listing 13](Figure 13.png "Results of Listing 13")
 
-        print("Built-In Python error info: ")
-        print(e, e.__doc__, type(e), sep='\n')
-    ```
-    #### Listing 13
-    ![Results of Listing 13](Figure 13.png "Results of Listing 13")####Figure 13. The results of Listing 13.
- 
-[alt text](web address "tooltip text")
+####Figure 13. The results of Listing 13.
