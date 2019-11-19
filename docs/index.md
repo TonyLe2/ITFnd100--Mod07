@@ -1,6 +1,6 @@
-# Title
+# Pickling and Structured Error Handling
 **Dev:** *TonyLe*  
-**Date:** *11.17.2019*
+**Date:** *11.19.2019*
 
 ## Structured Error Handling (Try-Except)
 When you are programming, you fix your bugs immediately and make sure the code runs smoothly. However, it often happens that other people introduce new bugs when they use your program.
