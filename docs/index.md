@@ -109,27 +109,3 @@ else:
 
 ![Script output showing a file stored in binary](https://github.com/TonyLe2/ITFnd100--Mod07/blob/master/docs/Figure7.png "Script output showing a file stored in binary")
 #### Figure 1: Script output showing a file stored in binary
-
-
-
-
-```
-# ------------------------------------------------- # # Title: Listing 13
-# Description: A try-catch with manually raised errors # ChangeLog: (Who, When, What)
-# RRoot,1.1.2030,Created Script
-# ------------------------------------------------- #
-
-try:
-    new_file_name = input("Enter the name of the file you want to make: ") 
-    if new_file_name.isnumeric():
-        raise Exception('Do not use numbers for the file\'s name') 
-except Exception as e:
-    print("There was a non-specific error!")
-    print("Built-In Python error info: ")
-    print(e, e.__doc__, type(e), sep='\n')
-```
-#### Listing 13
-
-![Results of Listing 13](https://github.com/TonyLe2/ITFnd100--Mod07/blob/master/docs/Figure13.png "Results of Listing 13")
-
-#### Figure 13. The results of Listing 13.
