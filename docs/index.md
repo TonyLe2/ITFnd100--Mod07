@@ -1,8 +1,8 @@
 # Pickling and Structured Error Handling
 **Dev:** *Tony Le*  
-**Date:** *11.19.2019*
-**Class:** *IT FDN 100
-**Assignment:** *07*
+**Date:** *11.19.2019*  
+**Class:** *IT FDN 100  
+**Assignment:** *07*  
 
 ## Introduction
 The assignment for this week is to research and create a script that demonstrates how pickling and structured error handling works. 
@@ -13,30 +13,25 @@ The first step as shown in Listing 1 is to import Pickle’s methods into the sc
 ```
 import pickle
 ```
-#### Listing 1
+#### Listing 1: Import Pickle
 
-### Raising Custom Errors
-Python automatically generates errors based on conditions defined by the Python Runtime. However, you can also "raise" errors based on custom conditions (Listing 13).
+## Declaring a class
+Listing 2 establishes the variables that will be used later on in the script. We define a variable that will be used to open up our file and we assign a list to a variable to be written and read.
+```
+file_Name = "Assignment07.txt"
+a = ['Value 1','Value 2','Value 3']
+```
+#### Listing 2: Assigning Variables
 
+## Processing the writing and reading of the data
+The first part of the processing is shown in Listing 3. We first assign a variable that opens the file for writing with fileObject. This time, we ensure to use ‘wb’ to indicate that we are writing in binary. We then store the data away with pickle.dump and close the file.
 
- 
-Figure 1: Import Pickle
-Declaring a class
-Figure 2 establishes the variables that will be used later on in the script. We define a variable that will be used to open up our file and we assign a list to a variable to be written and read.
-
- 
-Figure 2: Assignment Variables
-
-
-
-
-
-
-
-Processing the writing and reading of the data
-The first part of the processing is shown in Figure 3. We first assign a variable that opens the file for writing with fileObject. This time, we ensure to use ‘wb’ to indicate that we are writing in binary. We then store the data away with pickle.dump and close the file.
- 
-Figure 3: Write the list to file
+```
+fileObject = open(file_Name,'wb')
+pickle.dump(a, fileObject) 
+fileObject.close() 
+```
+#### Listing 3: Write the list to file
 
 The script in Figure 4 opens and reads the file that has been stored in binary. With the pickle.load command, we are able to load the stored data into a variable assigned as b. 
  
