@@ -1,4 +1,4 @@
-<div align="center"> # Pickling and Structured Error Handling </div>
+<center> # Pickling and Structured Error Handling </center>
 **Dev:** *Tony Le*  
 **Date:** *11.19.2019*  
 **Class:** *IT FDN 100  
