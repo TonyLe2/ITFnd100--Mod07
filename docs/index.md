@@ -1,11 +1,62 @@
 # Pickling and Structured Error Handling
-**Dev:** *TonyLe*  
+**Dev:** *Tony Le*  
 **Date:** *11.19.2019*
+**Class:** *IT FDN 100
+**Assignment:** *07*
 
-## Structured Error Handling (Try-Except)
-When you are programming, you fix your bugs immediately and make sure the code runs smoothly. However, it often happens that other people introduce new bugs when they use your program.
+## Introduction
+The assignment for this week is to research and create a script that demonstrates how pickling and structured error handling works. 
+
+## Importing pickle
+The first step as shown in Listing 1 is to import Pickle’s methods into the script.
+
+```
+import pickle
+```
+#### Listing 1
+
 ### Raising Custom Errors
 Python automatically generates errors based on conditions defined by the Python Runtime. However, you can also "raise" errors based on custom conditions (Listing 13).
+
+
+ 
+Figure 1: Import Pickle
+Declaring a class
+Figure 2 establishes the variables that will be used later on in the script. We define a variable that will be used to open up our file and we assign a list to a variable to be written and read.
+
+ 
+Figure 2: Assignment Variables
+
+
+
+
+
+
+
+Processing the writing and reading of the data
+The first part of the processing is shown in Figure 3. We first assign a variable that opens the file for writing with fileObject. This time, we ensure to use ‘wb’ to indicate that we are writing in binary. We then store the data away with pickle.dump and close the file.
+ 
+Figure 3: Write the list to file
+
+The script in Figure 4 opens and reads the file that has been stored in binary. With the pickle.load command, we are able to load the stored data into a variable assigned as b. 
+ 
+Figure 4: Reading the list
+
+Structured error handling
+The presentation section is detailed in Figure 5 which also demonstrates how structured error handling works. We utilize the try, except and else commands in order to output a custom error message in the case it fails. In the script here, the first try will fail due to a type error and the second one will pass.
+ 
+Figure 5: Structured error handling
+Summary
+Figure 6 shows the script in its entirety and Figure 7 shows the output of the script. The output shows that it is functioning as intended with the results of the data saved in a txt file in binary. To summarize, the script begins by assignment a value to “a” in normal text as a list. This list is then written into a file in binary and the data is stored by the pickle.dump method. Afterwards, the data is read in its binary form and loaded into the variable “b” by the pickle.load method. At this point, the list is back in its original form. The output of the script shown in Figure 7 shows the text file is stored as binary data.
+ 
+Figure 6: Full script
+
+
+ 
+Figure 7: Script output showing a file stored in binary
+
+
+
 
 ```
 # ------------------------------------------------- # # Title: Listing 13
