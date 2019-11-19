@@ -1,7 +1,7 @@
 # Pickling and Structured Error Handling
 **Dev:** *Tony Le*  
 **Date:** *11.19.2019*  
-**Class:** *IT FDN 100  
+**Class:** *IT FDN 100*  
 **Assignment:** *07*  
 
 ## Introduction
