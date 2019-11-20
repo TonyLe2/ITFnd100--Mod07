@@ -111,8 +111,8 @@ else:
 #### Figure 1: Script output showing a file stored in binary
 
 ## Resources
-•	https://pythontips.com/2013/08/02/what-is-pickle-in-python/
-•	https://wiki.python.org/moin/UsingPickle
-•	https://www.datacamp.com/community/tutorials/exception-handling-python
+•	https://pythontips.com/2013/08/02/what-is-pickle-in-python/  
+•	https://wiki.python.org/moin/UsingPickle  
+•	https://www.datacamp.com/community/tutorials/exception-handling-python  
 
 
