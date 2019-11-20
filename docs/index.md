@@ -109,3 +109,10 @@ else:
 
 ![Script output showing a file stored in binary](https://github.com/TonyLe2/ITFnd100--Mod07/blob/master/docs/Figure7.png "Script output showing a file stored in binary")
 #### Figure 1: Script output showing a file stored in binary
+
+## Resources
+•	https://pythontips.com/2013/08/02/what-is-pickle-in-python/
+•	https://wiki.python.org/moin/UsingPickle
+•	https://www.datacamp.com/community/tutorials/exception-handling-python
+
+
